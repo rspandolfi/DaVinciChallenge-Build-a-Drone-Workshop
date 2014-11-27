@@ -12,7 +12,7 @@ cd .. #Cd to the above directory
 rm -r apmInstaller #Delete the apmInstaller folder (no longer needed)
 ln -s /usr/bin/apmplanner2 ~/Desktop/APM\ Planner #Sym link /usr/bin/apmplanner2 to the desktop. This will add APM Planner to the desktop. 
 #Commented out because it is part of the code copy and pasted into the terminal. 
-  #wget https://github.com/ddworken/APMPlannerInstallScript/blob/master/install.sh  -Download this script from github
-  #sudo chmod +x install.sh                                                         -Enable execution of this script
-  #sudo sh install.sh                                                               -Run this script
-  #sudo adduser $(whoami) dialout                                                   -Add the current user to the dialout group. This is needed to allow apm planner to access the arducopter's serial port. 
+  #wget https://raw.githubusercontent.com/rspandolfi/DaVinciChallenge/master/APM-Installer/install.sh  -Download this script from github
+  #sudo chmod +x install.sh                                                                            -Enable execution of this script
+  #sudo sh install.sh                                                                                  -Run this script
+  #sudo adduser $(whoami) dialout                                                                      -Add the current user to the dialout group. This is needed to allow apm planner to access the arducopter's serial port. 
